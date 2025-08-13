@@ -1,7 +1,7 @@
 let numeroSecreto = 0;
 let intento = 0;
 let listaNumerosSorteados = [];
-let numeroMaximo = 3;
+let numeroMaximo = 10;
 
 function asignacionDeTexto(elemento, texto){
     let elementHTML = document.querySelector(elemento);
@@ -58,3 +58,4 @@ function reiniciarJuego (){
     document.querySelector('#reiniciar').setAttribute('disabled','true');
 }
 condicionesIniciales();
+
