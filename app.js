@@ -1,6 +1,6 @@
 let numeroSecreto = 0;
 let intento = 0;
-let listaNumerosSorteados = [];
+let listaNumerosSorteados = [];//array
 let numeroMaximo = 10;
 
 function asignacionDeTexto(elemento, texto){
